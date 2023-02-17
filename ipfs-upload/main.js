@@ -6,7 +6,7 @@ import mime from "mime";
 // Create a new instance of the NFTStorage client
 // Replace this with your own API key
 // You can get one by signing up for a free account at https://nft.storage
-const NFT_STORAGE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGY2ZDdFMmM1MTU3QjIyMDFjQzM0NDJkRjU0MjVkQjA4OTk4MzMwNDQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3NjY2NzcxNzQ0OSwibmFtZSI6Imx1bXMtaGFja2F0aG9uIn0.KoieJJcMxphx7wcB2DyQIAGrZwuMCkC-8uwmpWbxjYI";
+const NFT_STORAGE_KEY = "YOUR_API_KEY";
 const client = new NFTStorage({ token: NFT_STORAGE_KEY });
 
 // form element
